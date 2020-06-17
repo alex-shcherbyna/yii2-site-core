@@ -1,0 +1,31 @@
+{
+    "name": "a-shch/yii2-site-core",
+    "description": "Base multilanguage site core components.",
+    "type": "yii2-extension",
+    "stability": "alpha",
+    "keywords": [
+        "yii2",
+        "extension"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "A-Shcherbyna",
+            "email": "a@shcherbyna.dp.ua",
+            "homepage": "https://shcherbyna.dp.ua/",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "yiisoft/yii2": "2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ashch\\sitecore\\": "src"
+        }
+    },
+    "repositories": [
+    ]
+}
